@@ -11,7 +11,8 @@
     "dev:ssr": "ng run serverless-stripe:serve-ssr",
     "serve:ssr": "node dist/serverless-stripe/server/main.js",
     "build:ssr": "ng build --prod && ng run serverless-stripe:server:production",
-    "prerender": "ng run serverless-stripe:prerender"
+    "prerender": "ng run serverless-stripe:prerender",
+    "netlify-dev": "netlify dev"
   },
   "private": true,
   "dependencies": {

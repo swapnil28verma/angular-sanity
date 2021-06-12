@@ -4,13 +4,23 @@
 	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
 	"version": "0.2.0",
 	"configurations": [
+
 		{
 			"type": "pwa-msedge",
 			"request": "launch",
-			"name": "Launch Edge against localhost",
+			"name": "angular_client",
 			"url": "http://localhost:4200",
 			"webRoot": "${workspaceFolder}",
 			"runtimeArgs": ["-inprivate"]
+		},
+		{
+			"type": "pwa-msedge",
+			"request": "launch",
+			"name": "sanity_client",
+			"url": "http://localhost:3333",
+			"webRoot": "${workspaceFolder}",
+			"runtimeArgs": ["-inprivate"]
 		}
+
 	]
 }
